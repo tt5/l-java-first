@@ -1,3 +1,7 @@
+mvn archetype:generate
+
 mvn compile
 mvn clean package
 java -jar target/first-1.0-SNAPSHOT.jar
+
+mvn compile && java --enable-preview -jar target/first-1.0-SNAPSHOT.jar
