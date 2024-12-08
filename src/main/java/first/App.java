@@ -4,8 +4,10 @@ package first;
  * Hello world!
  */
 public class App {
-  public void main() {
-    System.out.print("hello anonymous main class");
+  public static void main(String[] args) {
+    System.out.print("hello ");
+    
+    Input.input();
   }
 
 }
